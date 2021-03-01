@@ -1,0 +1,71 @@
+<style>
+ 
+                
+                h2 {
+                    color: whitesmoke;
+                    text-align: center;
+                    font-family: cursive;
+                    font-size: 20px;
+                 }
+                input[type=text], select {
+                    color: black;
+                    width: 100%;
+                    padding: 10px 1px;
+                    margin: 8px 5px;
+                    display: inline-block;
+                    border: 2px solid lightgreen;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    size: 30
+                                         }
+                input[type=email], select {
+                    color: black;
+                    width: 100%;
+                    padding: 10px 1px;
+                    margin: 8px 5px;
+                    display: inline-block;
+                    border: 2px solid lightgreen;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    size: 30;
+                                          }
+
+                label {
+                    color: white;
+                    width: 100%;
+                    padding: 1px 0;
+                    margin: 8px 5px;
+                    display: block;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                     
+                }
+
+                input[type=submit] {
+                    width: 40%;
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 12px 7px;
+                    margin-left: 110px;
+                    margin-top: 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    text-align: center;
+                    
+                }
+
+                input[type=submit]: hover {
+                    background-color: #45a049;
+
+
+                }
+
+                div {
+                    border-radius: 10px;
+                    background-color: lightseagreen;
+                    padding: 20px;
+                    margin: 0 auto;
+                    width: 30%
+                }
+</style>

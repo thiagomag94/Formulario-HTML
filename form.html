@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang ="pt-BR">
+    <head>
+        <meta charset ="utf-8" author ="Thiago Borges">
+        <title>Formulário</title>
+        <link href="estilos.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans|Montserrat">
+        <style> h2 {
+                    color: whitesmoke;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 20px;
+                 }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="principal">
+            <h2>FORMULÁRIO</h2>
+        <form action ="destino.html" method="post">
+                <label for="nome">Nome:<br></label>
+                <input type="text" name="nome" id="nome" maxlength="100" placeholder="Digite seu nome completo..">
+
+                <label for="email">E-mail:<br></label>
+                <input type="email" name="email" id="email" maxlength="100" placeholder="Digite seu e-mail..">
+
+                <input type="submit" value="enviar" id="enviar" name="enviar">
+        </form>
+        </div>   
+    </body>
+</html>
