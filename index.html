@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang ="pt-BR">
+    <head>
+        <meta charset ="utf-8" author ="Thiago Borges" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link href="bigger.css" rel="stylesheet" media="screen">
+        <link href="large.css" rel="stylesheet" media="screen">
+        <link href="medium.css" rel="stylesheet" media="screen">
+        <link href="small.css" rel="stylesheet" media="screen">
+        <link href="smaller.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans|Montserrat">
+    </head>
+    
+    <body >
+        <header id="topo">
+            <h1>PYCOMPETITION</h1>
+        </header>
+        
+        <section>
+            <br> <h3>Cadastre-se e confirme sua inscrição</h3>
+        
+            <form action ="processa.php" method="post">
+                    
+                    <input type="text" name="nome" id="nome" maxlength="100" placeholder="Digite seu nome completo.." required="Preencha este campo" autofocus>
+
+                    
+                    <input type="email" name="email" id="email" maxlength="100" placeholder="Digite seu e-mail.." required autofocus>
+
+                    <input type="submit" value="enviar" id="enviar" name="enviar">
+            </form>
+        </section>
+         
+    </body>
+</html>
