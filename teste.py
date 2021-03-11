@@ -2,8 +2,8 @@ import pymysql
 from flask import request
 
 if request.method == 'POST':
-    user =  request.form['nome']
-    email =  request.form['email'] 
+    user =  request.POST['nome']
+    email =  request.POST['email'] 
 
     
 db = pymysql.connect(host='form.criuxypwt58s.sa-east-1.rds.amazonaws.com',
