@@ -1,2 +1,2 @@
 # Formulario-HTML
-Este é o meu primeiro formulário HTLM com estilos CSS.
+Este é o meu primeiro formulário HTML com estilos CSS.
